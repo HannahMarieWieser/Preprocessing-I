@@ -1,1 +1,205 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.fullpagebox {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.navbar {
+  border: 1px solid purple;
+}
+.navbar a {
+  text-decoration: none;
+}
+.introbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px dashed green;
+  margin-top: 40px;
+  height: 300px;
+  background: #e7e7e7;
+}
+.introbox img {
+  max-width: 300px;
+}
+.introbox .headshot {
+  border: 1px solid salmon;
+  width: 20%;
+}
+.headerinfo {
+  border: 1px solid forestgreen;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.headerinfo h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.headerinfo .smallbox {
+  border: 1px solid pink;
+  padding-top: 60px;
+}
+.headerinfo button {
+  margin-top: 10px;
+}
+.middlecontent {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid teal;
+  height: 350px;
+}
+.middlecontent h2 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.middlecontent .middlebox {
+  height: 300px;
+  width: 45%;
+  border: 1px solid goldenrod;
+}
+.bottomcontent {
+  border: 1px dashed lightcoral;
+  height: 300px;
+}
+footer {
+  height: 40px;
+}
